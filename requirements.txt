@@ -1,14 +1,7 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: win-64
-bzip2==1.0.8
-ca-certificates==2022.4.26
 cachetools==5.2.0
 certifi==2022.6.15
 charset-normalizer==2.1.0
 click==8.0.4
-colorama==0.4.5
-dataclasses==0.8
 flask==2.0.3
 google-api-core==2.8.2
 google-api-python-client==2.52.0
@@ -22,7 +15,6 @@ itsdangerous==2.0.1
 jinja2==3.0.3
 libffi==3.4.2
 markupsafe==2.1.1
-openssl==1.1.1p
 pip==21.2.4
 protobuf==4.21.2
 pyasn1==0.4.8
@@ -38,8 +30,6 @@ tk==8.6.12
 tzdata==2022a
 uritemplate==4.1.1
 urllib3==1.26.9
-vc==14.2
-vs2015_runtime==14.27.29016
 werkzeug==2.0.3
 wheel==0.37.1
 wincertstore==0.2
