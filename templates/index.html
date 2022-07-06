@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Youtube Playlist</title>
+</head>
+<body>
+    <div class="center">
+        <div class="form">
+            <form action="../" method="POST">
+                <label for="lname"><strong> Playlist URL</strong></label><br>
+                <input type="text" id="url" name="url" placeholder="Paste Your YouTube Playlist's URL! "><br><br>
+                <input type="submit" value="Calculate length">
+            </form>
+        </div>
+        {% if result %}
+        <h2>Duration of the playlist is :</h2> 
+        <h2>{{result[0]}} days, {{result[1]}} hours, {{result[2]}} minutes, {{result[3]}} seconds</h2>
+        {% endif %}
+        {% block result %}{% endblock %}
+    </div>
+</body>
+</html>
