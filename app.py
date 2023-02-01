@@ -5,7 +5,7 @@ from datetime import timedelta
 
 from googleapiclient.discovery import build
 
-api_key = 'AIzaSyDNy_C63SXBz9XBkDaBpDrIZM8KCJO8aK4'
+# api_key = <Your api key here>
 youtube = build('youtube','v3', developerKey=api_key)
 h_pattern = re.compile(r'(\d+)H')
 m_pattern = re.compile(r'(\d+)M')
